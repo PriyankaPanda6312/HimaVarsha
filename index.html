@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+
+<html>
+
+<title>My Profile</title>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+
+.w3-row-padding img {margin-bottom: 12px}
+
+.bgimg {
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  background-image: url('C:\Users\NP001074534\Desktop\Web Development\IMAGES\Profile.png');
+
+  min-height: 100%;
+
+  height: 500px;
+
+}
+
+</style>
+
+<body>
+
+ 
+
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+
+  <div class="bgimg">
+
+    <img style="width: 300px; height: 700px;"  src="Profile.png" alt="My image">
+
+  </div>
+
+</nav>
+
+ 
+
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+
+    <i class="fa fa-remove"></i>
+
+  </a>
+
+  <div class="w3-bar-block w3-center">
+
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+
+  </div>
+
+</nav>
+
+ 
+
+<!-- Page Content -->
+
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+ 
+
+  <!-- Menu icon to open sidebar -->
+
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+ 
+
+  <!-- Header -->
+
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+
+    <h1 class="w3-jumbo"><b>Naga Hima Varsha Pattamatta</b></h1>
+
+    <p>Associate Software Engineer</p>
+
+    <img src="Profile.png" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+
+    <img src="Profile.png" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+
+      <i class="fa fa-download"></i> Download Resume
+
+    </button>
+
+  </header>
+
+ 
+
+  <!-- Portfolio Section -->
+
+  <div class="w3-padding-32 w3-content" id="portfolio">
+
+    <h2 class="w3-text-grey">My Portfolio</h2>
+
+    <hr class="w3-opacity">
+
+ 
+
+   
+
+    <div class="w3-row-padding" style="margin:0 -16px">
+
+      <div class="w3-half">
+
+        <img src="/w3images/wedding.jpg" style="width:100%" alt="Project img 1">
+
+        <img src="/w3images/rocks.jpg" style="width:100%" alt="project img2">
+
+        <img src="/w3images/sailboat.jpg" style="width:100%" alt="project img3">
+
+      </div>
+
+ 
+
+    </div>
+
+  <!-- End Portfolio Section -->
+
+  </div>
+
+ 
+
+  <!-- About Section -->
+
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+
+    <h2>About</h2>
+
+    <hr class="w3-opacity">
+
+    <p>Hello, I am Hima Varsha a passionate learner and a curious explorer,always eager to aquire new skills.My love for reading bookd fuels my creativity and provides endless knowledge,inspiring me to think bigger.with a strong intrest in Web Development.Im dedicated to mastering the art of building user friendly designs.through my skills. i am to make a positive impact in the world of Web Development.</p>
+
+    </p>
+
+    <h3 class="w3-padding-16">My Skills</h3>
+
+    <p class="w3-wide">UI/UX(Figma)</p>
+
+    <div class="w3-light-grey">
+
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
+
+    </div>
+
+    <p class="w3-wide">Web Design</p>
+
+    <div class="w3-light-grey">
+
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+
+    </div>
+
+    <p class="w3-wide">Python</p>
+
+    <div class="w3-light-grey">
+
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+
+    </div><br>
+
+ 
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+
+     
+
+      <div class="w3-quarter w3-section">
+
+        <span class="w3-xlarge">4+</span><br>
+
+        Projects Done
+
+      </div>
+
+      <div class="w3-quarter w3-section">
+
+        <span class="w3-xlarge">5</span><br>
+
+         Months Experience
+
+      </div>
+
+      <div class="w3-quarter w3-section">
+
+        <span class="w3-xlarge">10+</span><br>
+
+        Meetings
+
+      </div>
+
+    </div>
+
+ 
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+
+      <i class="fa fa-download"></i> Download Resume
+
+    </button>
+
+ 
+
+    <h3 class="w3-padding-24">My Reputation</h3>
+
+    <img src="https://tse1.mm.bing.net/th/id/OIP.B2IXbePivfezN46_ttf4nQHaFj?rs=1&pid=ImgDetMain" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px ">
+
+    <p><span class="w3-large w3-text-black w3-margin-right">Ramesh</span>UI/UX Designer</p>
+
+    <p>Hima Varsha is just awesome. I am so happy to have met her!</p><br>
+
+   
+
+    <img src="https://img.freepik.com/premium-photo/professional-indian-female-headshots-business-corporate-women_203363-204.jpg?w=2000" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+
+    <p><span class="w3-large w3-text-black w3-margin-right">Soumya</span></p>
+
+    <p>She is a good designer</p><br>
+
+   
+
+    <img src="https://cdn.i-scmp.com/sites/default/files/styles/768x768/public/images/methode/2016/11/08/aa7c8a02-903d-11e6-af59-7ad1937f51f2_1280x720.JPG?itok=wxNK3pvx" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+
+    <p><span class="w3-large w3-text-black w3-margin-right">Pavan Kumar</span> Web Designer</p>
+
+    <p>No one is better than her.</p><br>
+
+   
+
+    <h2 class="w3-padding-16">My Main Projects</h2>
+
+    <div>
+
+        <h3><bold> Recognition of South Indian Dance Forms</h3>
+
+        <p>Designed a user-centric dance form recognition Application for cultural preservation and also used deep learning techniques for Recognition of dance forms </bold></p>
+
+ 
+
+    </div>
+
+    <div>
+
+        <h3><bold> OTT Platform Web Application UI</h3>
+
+        <p>Designed a user-centric OTT Platform called IOTT using Figma Applying UI UX principles to create an engaging and intrutive design.</bold></p>
+
+ 
+
+    </div>
+
+    <div>
+
+        <h3><bold> Inter College Social Media Apllication</h3>
+
+        <p>Developed a college social media Application using HTML , CSS,JS to facilitate secure and focussed academic interactions,allowing students and faculty to share information and resources without revealing personal data of the students.</bold></p>
+
+ 
+
+    </div>
+
+ 
+
+ 
+
+  </div>
+
+ 
+
+  <!-- Contact Section -->
+
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+
+    <h2>Contact Me</h2>
+
+    <hr class="w3-opacity">
+
+ 
+
+    <div class="w3-section">
+
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Visakhapatnam,AP</p>
+
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: 9346232366</p>
+
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: Himavarsha@gmail.com</p>
+
+    </div>
+
+   
+
+ 
+
+    <p>Lets get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+
+      <p>
+
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+
+        </button>
+
+      </p>
+
+    </form>
+
+  <!-- End Contact Section -->
+
+  </div>  
+
+ 
+
+  <!-- Footer -->
+
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+
+   
+
+ 
+
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+   
+
+  <!-- End footer -->
+
+  </footer>
+
+ 
+
+<!-- END PAGE CONTENT -->
+
+</div>
+
+ 
+
+<script>
+
+// Open and close sidebar
+
+function openNav() {
+
+  document.getElementById("mySidebar").style.width = "60%";
+
+  document.getElementById("mySidebar").style.display = "block";
+
+}
+
+ 
+
+function closeNav() {
+
+  document.getElementById("mySidebar").style.display = "none";
+
+}
+
+</script>
+
+ 
+
+</body>
+
+</html>
+
+ 
+
